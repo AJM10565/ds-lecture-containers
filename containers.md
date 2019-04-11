@@ -1,8 +1,7 @@
+<WIP>
+ # Containers: Dockers, Kubernetes, Singularity #
 
-(WIP)
-#Containers: Dockers, Kubernetes, Singularity#
-
-###Chapter outline#
+ ### Containers Chapter Outline
 
 - Introduction to Containers
     - Review Relevent DS Principles
