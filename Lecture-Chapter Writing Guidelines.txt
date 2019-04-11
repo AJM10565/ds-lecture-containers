@@ -1,0 +1,23 @@
+﻿This semester, in lieu of a second in-class quest (quiz or test), we are doing a take-home quiz, which is to organize and write lecture notes on a selected topic in distributed systems. Topic bidding is done through our course forum, hosted on Basecamp.
+
+
+You can find your assignments in the assignments spreadsheet.
+
+
+These are the requirements, not necessarily in order. Based on our grading scale (10 points), each requirement must be followed to the best of your ability. We will deduct points if any of these are not followed, simply because it will hurt our efforts to incorporate your work into the book. My expectations are high, given that this replaces an in-class quiz, which you all know by now can present a major challenge.
+
+
+1. The notes must be written in Markdown and use the Pandoc Markdown specification at https://pandoc.org/MANUAL.html. 
+2. The notes must be created in your own GitHub account. The repository name must be named ds-lecture-<topic>. The <topic> identifier can be found in the assignments spreadsheet. 
+3. The structure of this repository must be kept simple. You should write your lecture in a single Markdown file. The lecture filename must be <topic>.markdown.
+4. Any code examples should be formatted as inline code blocks (using Pandoc fenced code blocks). If you have more complex code examples, you may put them in a subdirectory, src, and use Markdown links to refer to the source file. Please do whatever you can to use short code blocks to demonstrate key principles.
+5. Your topic should be organized as follows:
+   1. Introduction to topic - The introduction should be focused on general principles related to your topic. It should not be filled with pointless jargon and references to specific technologies. For example, if you are doing NoSQL, you should talk about the general principles of NoSQL databases and then mention the technologies you will present in the rest of the chapter.
+   2. Technologies or techniques associated with topic - For example, if you chose NoSQL, you might mention MongoDB, CouchDB, Neo4J, and Redis. You would have a subsection for each.
+   3. For each technology, you should have an overview of that technology, explanation of key ideas, and an example of how to use the technology. Examples should not just be lifted randomly from the docs. You should come up with your own and at least make some attempt to code the example using the technology being discussed. Building on our NoSQL example, you should give examples in each NoSQL database framework you decide to cover.
+   4. Key takeaways - You should summarize how your topic is important to distributed systems and share key insights based on why you think the topic is useful.  Takeaways should be something that you and other practitioners can apply to solving real-world problems.
+1. Writing must be professional. Use active voice. Avoid spelling mistakes. Avoid unnecessarily dense writing and complicated vocabulary. Use “We” instead of “I”. (e.g. We describe a pattern....)  Make sure each paragraph has a proper transition to the next idea. Keep paragraphs concise (5-6 sentences). Keep sentence length to a minimum (10 words). 
+2. If you are uncomfortable writing paragraphs, you can use lists/bullets. However, you must make sure each is a proper sentence. The eventual goal of this project is to create a complete open source book on distributed systems that is constantly kept up-to-date by me and future students. So you can fully expect your text to be revised by future generations.
+3. You must use footnotes to do inline citations for any web or library references. If something you write does not sound like it came from you, it is likely you failed to cite your sources.
+4. You may request feedback directly from me our esteemed TA (Zac Gallagher in Spring 2019), provided you have commited your work to GitHub. Those who communicate with us early to see if they are doing things “right” will be among the most likely to get a good grade on this take-home quiz.
+5. Word count should be 2,000 +/- 200 words. Do not write words just for the sake of doing so. But use this to make sure you have put in the effort that would be expected. Since this replaces a test, you would spend hours preparing for the test and then another hour or so taking the test. Your writing will ultimately be judged on whether you did a good job of researching your topic and taking the time to write something intelligent. As this is an upper division / graduate course, excellence is expected.
