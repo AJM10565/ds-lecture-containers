@@ -27,7 +27,8 @@
     - Discuss how containers Embody these principles
     - Practical Take-Aways for users
     
-###Introduction to Containers
+### Introduction to Containers
+
 #### What are Containers?
 A container provides operating system (OS)-level virtualization. In a standard computer system a given application is able to view information about it's host's resources, even if it is unauthorized to make any modifications. A container can be allocated a precise amount of resources, and will assume that these are all it ever has to work with (George Coulouris, Jean Dollimore, Tim Kindberg, and Gordon Blair. 2011. Distributed Systems: Concepts and Design (5th ed.). Addison-Wesley Publishing Company, , USA. CHAPTER 7). 
 
@@ -54,6 +55,7 @@ A more in-depth discussion of design patterns is beyond the scope of this chapte
 
 
 ### Docker
+
 #### Overview of Docker
 Docker was released in december of 2013. Docker is a service that provides  OS-level virtualization through the use of the docker daemon. Containers can be run in a number of different configuration types. Docker provides an CLI for user testing and access to the daemon. Individual Docker containers are built from Dockerfiles. Dockerfiles specify the environment, and other execution context for the application. An individual docker container can provide access to virtual ports and other networking tools. This makes Docker a useful container for doing integration testing. 
 
